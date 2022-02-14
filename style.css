@@ -52,6 +52,7 @@ body {
   background-color: #3838d4;
   color: white;
   width: 50%;
+  min-width: 200px;
   cursor: pointer;
 }
 
