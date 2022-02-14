@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subway People Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <!-- card  -->
+      <div class="card">
+        <h1>
+          People Entered
+          <h1 id="counter">0</h1>
+        </h1>
+        <button id="increment" onclick="increment()"><b>INCREMENT</b></button>
+        <br />
+        <button id="save" onclick="save()"><b>SAVE</b></button> <br />
+        <!-- string -->
+        <div>
+          <p>Previous Enteries : <h3 id="enteries"></h3 ></p>
+        </div>
+        <!-- / string -->
+      </div>
+      <!-- / card  -->
+    </div>
+    <!-- script file  -->
+    <script src="./script.js"></script>
+    <!-- / script file  -->
+  </body>
+</html>
