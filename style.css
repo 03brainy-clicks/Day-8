@@ -57,6 +57,7 @@ body {
 
 .container .card #save {
   width: 50%;
+  min-width: 200px;
   border: none;
   border-radius: 10px;
   padding: 0.8rem 3rem;
